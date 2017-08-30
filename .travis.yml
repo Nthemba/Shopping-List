@@ -3,4 +3,8 @@ python:
  -2.7.12+
 install:
  -pip install requirements.txt
+script:
+coverage run --source=tests
+after_success:
+coveralls
 
