@@ -1,15 +1,8 @@
-/* 
-    Created on : Aug 28, 2017, 12:24:08 PM
-    Author     : kosgei
-*/
-/*#7ab4e3*/
+
 .body-Login-background{
     background-color: #d5e8f8;
 }
-.logo-margin {
-    margin-top:100px;
-}
- .login-panel {
+ .signin {
     margin-top: 15%;
 }
 
@@ -20,85 +13,18 @@
   background-color: #fff;
 }
 .mytable{
-    margin-top: 100px;
+    margin-top: 120px;
     background-color: #fff;
     padding-left: 150px;
     padding-right: 70px;
 /*    margin-right: -150px;*/
 }
+.sidemenu{
+    height: 100%;
+    margin-top: 120px;
+}
 .famenusize{
     font-size: 40px;
+    color: #fff;
 }
 
-.my-light-grey, .my-hover-light-grey:hover, .my-light-gray, .my-hover-light-gray:hover {
-    background-color: #f1f1f1;
-    color: #000;
-}
-
-.my-bar-block .my-bar-item {
-    border: medium none;
-    display: block;
-    float: none;
-    outline: medium none;
-    padding: 8px 16px;
-    text-align: left;
-    white-space: normal;
-    width: 100%;
-}
-
-h1, h2, h3, h4, h5, h6 {
-    font-family: "Segoe UI",Arial,sans-serif;
-    font-weight: 400;
-    margin: 10px 0;
-}
-h3 {
-    font-size: 24px;
-}
-
-.my-light-grey, .my-hover-light-grey:hover, .my-light-gray, .my-hover-light-gray:hover {
-    color: #000;
-}
-
-.my-bar-block .my-bar-item {
-    border: medium none;
-    display: block;
-    float: none;
-    outline: medium none;
-    padding: 8px 16px;
-    text-align: left;
-    white-space: normal;
-    width: 100%;
-}
-.my-btn, .my-button {
-    -moz-user-select: none;
-}
-.my-btn, .my-button {
-    background-color: #fff;
-    border: 2px solid;
-    color:  #547691 ;
-    cursor: pointer;
-    display: inline-block;
-    outline: 0 none;
-    overflow: hidden;
-    padding: 8px 16px 8px 16px;
-    height: 5%;
-    text-align: center;
-    text-decoration: none;
-    vertical-align: middle;
-    white-space: nowrap;
-}
-
-
-.my-light-grey, .my-hover-light-grey:hover, .my-light-gray, .my-hover-light-gray:hover {
-    background-color: #f1f1f1;
-    color: #000;
-}
-.my-sidebar {
-    background-color:  #fff ;
-    height: 100%;
-    overflow: auto;
-    position: fixed;
-    width: 200px;
-    z-index: 1;
-}
-  
