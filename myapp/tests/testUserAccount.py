@@ -1,6 +1,7 @@
 """ User Registration tests"""
 import unittest
-       
+
+    
 def createUser(email, username, password, cPassword):
 	user_list =[{
 		'email':'junenthemba@gmail.com','username': 'njune', 'password':'Qwerty1'

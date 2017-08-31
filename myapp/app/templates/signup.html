@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Shopping list</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}" />
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='plugins/bootstrap/bootstrap.css') }}" />
+    </head>
+    <body class="body-Login-background">
+        <div class="navbar navbar-default" style="padding-top: 50px">
+            <div>
+                <h2 class="text-center">My Shopping List</h2> 
+            </div>
+        </div>
+        <div class="col-md-4 col-md-offset-4">
+            <div class="signin panel panel-default" style="padding-bottom: 50px">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Create an account</h3>
+                </div>
+                <div class="panel-body">
+                    <form role="form">
+                        <fieldset>
+                            <div class="form-group">
+                                <input class="form-control" placeholder="email" name="email" id="email" type="text" value="" autofocus>
+                            </div>
+                            <div class="form-group">
+                                <input class="form-control" placeholder="username" name="username" id="username" type="text" value="" autofocus>
+                            </div>
+                            <div class="form-group">
+                                <input class="form-control" placeholder="Password" name="password" id="password" type="password" value="">
+                            </div>
+                            <div class="form-group">
+                                <input class="form-control" placeholder="confirm" name="confirm" id="confirm" type="password" value="">
+                            </div class= "form-group">
+                            <input type="submit" id="btnsignup" class=" form-control btn btn-lg btn-success btn-block" value="Sign Up">
+                            <!-- href="dashboard.html" -->
+                            </fieldset>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
